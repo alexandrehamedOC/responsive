@@ -91,8 +91,14 @@ body {
   font-weight: bold;
   text-align: end;
   margin-bottom: 2rem;
-  border-top: solid 2px var(--btn-color);
-  padding-top: 20px;
+  padding-top: 10px;
+}
+
+.content-titles::before {
+    content: "";
+    display: block;
+    border-top: 2px solid var(--btn-color);
+    margin: 20px 0; 
 }
 
 
