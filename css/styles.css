@@ -98,7 +98,7 @@ body {
     content: "";
     display: block;
     border-top: 2px solid var(--btn-color);
-    margin: 20px 0; 
+    margin-bottom: 20px; 
 }
 
 
